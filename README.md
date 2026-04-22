@@ -2,76 +2,80 @@
 
 ## 📌 Overview
 
-This repository showcases PLC-based control system projects focused on industrial automation, system behavior, fault handling, and validation.
+This repository contains PLC-based control system projects focused on industrial automation, conveyor systems, and fault-tolerant control logic.
 
-The work emphasizes:
+The projects demonstrate practical implementation of ladder logic, interlocks, timing sequences, and fault handling aligned with real material handling systems.
 
-- Deterministic control logic  
-- Sensor-driven automation  
-- Fault detection and recovery  
-- Structured testing and validation  
+---
+
+## 🚀 Projects
+
+### 🔹 Multi-Zone Conveyor Control System
+**Tech:** RSLogix 500, Ladder Logic  
+
+- Designed a 3-zone conveyor system with downstream dependency and accumulation control  
+- Implemented per-zone logic with restart delays and sensor-based interlocks  
+- Developed fault detection using timers with latched fault handling and manual reset  
+- Modeled fault propagation to stop upstream zones based on downstream conditions  
+- Validated system behavior using structured test cases  
+
+👉 https://github.com/rakewhopper/plc-multizone-conveyor  
+
+---
+
+### 🔹 Conveyor Control System with Fault Handling
+**Tech:** RSLogix 500, Ladder Logic  
+
+- Implemented start/stop motor control using seal-in logic  
+- Added sensor-based stopping with interlocked control conditions  
+- Developed timed restart sequence using TON timers  
+- Implemented fault detection for sensor failure conditions  
+- Verified system behavior through defined test scenarios  
+
+👉 https://github.com/rakewhopper/plc-conveyor-control-system  
 
 ---
 
 ## 🧠 Skills Demonstrated
 
 - PLC Programming (RSLogix 500)  
-- Ladder Logic Design (seal-in, timers, interlocks)  
-- Fault Detection and Recovery Logic  
-- Industrial Control System Behavior  
-- Functional Test Case Development  
-- System Debugging and Validation  
+- Ladder Logic Design (timers, interlocks, seal-in circuits)  
+- Sensor Integration & Control Interlocks  
+- Fault Detection, Latching, and Recovery  
+- Multi-zone System Coordination  
+- System Validation using Test Cases  
 
 ---
 
-## 🚀 Projects
+## 🏭 Application Areas
 
-### 🔹 Conveyor Control System with Fault Handling
-
-- Start/Stop motor control with seal-in logic  
-- Sensor-based stopping and interlocking  
-- 2-second delayed restart using TON timer  
-- Fault detection for sensor failure (stuck condition)  
-- Latched fault with manual reset  
-- Validation through structured test cases  
-
-👉 https://github.com/rakewhopper/plc-conveyor-control-system
-
----
-
-### 🔹 Multi-Zone Conveyor Control System
-
-- Multi-zone conveyor with downstream dependency  
-- Zone-to-zone coordination and accumulation behavior  
-- Sensor-based zone control and interlocks  
-- Fault propagation across zones  
-- Coordinated control of multiple zones with restart delays  
-- Validation using defined test scenarios  
-
-👉 https://github.com/rakewhopper/plc-multizone-conveyor
+- Conveyor Systems  
+- Material Handling  
+- Warehouse Automation  
+- Industrial Control Systems  
 
 ---
 
 ## 🧪 Engineering Approach
 
-Each system is developed using a structured workflow:
+Each project follows a structured workflow:
 
 1. Define system behavior and requirements  
-2. Design control logic (ladder diagrams)  
-3. Implement timing, interlocks, and fault handling  
+2. Design ladder logic with interlocks and sequencing  
+3. Implement timing and fault handling  
 4. Validate using structured test cases  
-5. Verify predictable and safe system operation  
+5. Ensure predictable and safe system operation  
 
 ---
 
-## 🎯 Focus
+## 🎯 Objective
 
-This portfolio focuses on controls and automation engineering, with emphasis on reliable system behavior, fault handling, and validation aligned with industrial applications.
+Transition into Controls / Automation Engineering roles focused on PLC-based system design and industrial automation.
 
 ---
 
-## 📌 Next Steps
+## 🚀 Next Steps
 
 - Add HMI interface (FactoryTalk View)  
-- Expand fault scenarios and diagnostics  
+- Expand to multi-zone routing/sorting systems  
 - Transition projects to Studio 5000  
