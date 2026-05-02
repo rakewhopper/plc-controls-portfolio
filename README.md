@@ -36,6 +36,12 @@ The projects demonstrate practical implementation of ladder logic, interlocks, t
 
 ---
 
+### 🔹 Sorting Conveyor Control System with Diverter + HMI
+
+👉 https://github.com/rakewhopper/plc-sorting-conveyor
+
+---
+
 ## 🧠 Skills Demonstrated
 
 - PLC Programming (RSLogix 500)  
